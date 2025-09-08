@@ -1,5 +1,5 @@
 # Notazione GDR Solitari
-*Uno standard per registrare il gioco in solitaria - versione 1.6**
+**Uno standard per registrare il gioco in solitaria - versione 1.6**
 
 ## 1. Introduzione  
 
