@@ -116,11 +116,11 @@ Usa un breve blocco all’inizio di ogni sessione per mantenere ordine.
 - Inserisci il **Frontespizio** una sola volta, all’inizio del diario di campagna.  
 - Inizia ogni sessione di gioco con un’**Intestazione di Sessione**.  
 - Termina ogni sessione con:  
-```
 
+```
 \=== Sessione X Fine ===
-
 ```
+
 - Aggiorna `[Ultimo Agg.]` nel Frontespizio ogni volta che aggiungi una nuova Intestazione di Sessione.  
 
 ## 4. Diario delle Scene  
@@ -146,37 +146,35 @@ Le scene sono l’unità base di gioco.
 Due tipi di incertezza guidano il gioco:  
 
 - **Azioni del giocatore (meccaniche)**  
-```
 
+```
 > Forzare la serratura
-
 ```
+
 - **Domande al mondo / GM (oracolo)**  
+
 ```
-
 ? C’è qualcuno dentro?
-
 ```
 
 ### 4.3 Risoluzioni  
 
 #### Meccaniche  
+
 ```
-
 d: \[tiro o regola] => esito
-
 ```
 Esempio:  
+
 `d: d20+Scassinare=17 vs CD 15 => Successo`  
 
 #### Oracolo  
-```
 
+```
 -> \[risposta] (tiro se rilevante)
-
 ```
-Esempio:  
-`-> Sì, ma… (d6=4)`  
+
+Esempio: `-> Sì, ma… (d6=4)`  
 
 **Convenzione abbreviata**:  
 - Usa `>` o `<` per confronti (es. `d:2<4` = fallimento, `d:5>3` = successo).  
@@ -187,9 +185,7 @@ Esempio:
 Annota il risultato narrativo dopo i tiri:  
 
 ```
-
 \=> La porta si apre cigolando, ma il rumore riecheggia nella sala.
-
 ```
 
 ### 4.5 Elementi Persistenti  
@@ -202,8 +198,7 @@ Traccia elementi in corso con tag.
 - **Fili narrativi**: `[Thread: Trovare la sorella di Jonah | Aperto]` → `[Thread:…|Chiuso]`  
 - **Personaggio Giocante**: `[PG:Nome|PF 6|Stress 2|Equip:Daga]` → `[PG:PF-1]`  
 
-Riusa gli ID nelle scene successive per collegare il diario:  
-`[#N:Jonah]`, `[#L:Faro]`, `[#E:ComplottoCultisti]`.  
+Riusa gli ID nelle scene successive per collegare il diario: `[#N:Jonah]`, `[#L:Faro]`, `[#E:ComplottoCultisti]`.  
 
 ### 4.6 Tracciamento Progressi  
 
@@ -217,11 +212,9 @@ Forme diverse di progresso possono essere tracciate in modo coerente:
 
 Quando usi tabelle di ispirazione o generatori, annota il tiro:  
 
-- **Tabella semplice**:  
-  `tbl: d100=42 => "Una spada spezzata"`  
+- **Tabella semplice**: `tbl: d100=42 => "Una spada spezzata"`  
 
-- **Generatore complesso**:  
-  `gen: Evento Mythic d100=78 + 11 => Azione PNG / Tradire`  
+- **Generatore complesso**: `gen: Evento Mythic d100=78 + 11 => Azione PNG / Tradire`  
 
 ### 4.8 Estratti Narrativi (Opzionale)  
 
@@ -231,22 +224,20 @@ Puoi aggiungere narrativa o dialoghi dove serve.
   `=> La stanza puzza di muffa.`  
 
 - **Dialogo**:  
-```
 
+```
 N (Guardia): "Chi va là?"
 PG: "Stai calmo…"
-
 ```
 
 - **Blocco lungo**:  
-```
 
+```
 -----------------------------------------
 
 Il diario dice:
 "Le maree non obbediscono più alla luna."
 -----------------------------------------
-
 ```
 
 Questo è opzionale — l’abbreviazione basta da sola.  
@@ -256,16 +247,14 @@ Questo è opzionale — l’abbreviazione basta da sola.
 Usa parentesi per promemoria, riflessioni o house rule.  
 
 ```
-
 (nota: test regola furtività alternativa)
-
 ```
 
 ## 5. Esempi  
 
 ### Esempio 1 — Diario Ibrido  
-```
 
+```
 \[S7] *Vicolo buio dietro la taverna, Mezzanotte*
 
 > Passare furtivo oltre le guardie
@@ -278,19 +267,17 @@ Usa parentesi per promemoria, riflessioni o house rule.
 
 N (Guardia): "Chi va là?"
 PG: "Stai calmo… solo stai calmo."
-
 ```
 
 ### Esempio 2 — Solo Abbreviazione  
+
 ```
-
 S7 >Furtività d:2<4 F => rumore \[E\:Allerta 2/6] ?Visto? ->Nm3 => distratti, 1 resta
-
 ```
 
 ### Esempio 3 — Tracciamento Fili Narrativi  
-```
 
+```
 \[S12] *Dentro il faro*
 
 > Cercare nella camera
@@ -298,7 +285,6 @@ S7 >Furtività d:2<4 F => rumore \[E\:Allerta 2/6] ?Visto? ->Nm3 => distratti, 1
 > \=> Trovo un diario nascosto. \[E\:ComplottoCultisti 3/6] \[Thread: Trovare la sorella di Jonah|Aperto]
 
 tbl: d100=42 => "Una spada spezzata"
-
 ```
 
 ### Esempio 4 — Diario Completo di Campagna  
@@ -438,10 +424,9 @@ PG: "Stai calmo…"
 - `(nota: … )` — Riflessione, promemoria, house rule  
 
 ### Riga di esempio  
+
 ```
-
 S3 >Forzare serratura d\:d20=17>15 => Successo => rumore cigolio \[N\:Guardia|allerta]
-
 ```
 
 ## 8. Changelog  
